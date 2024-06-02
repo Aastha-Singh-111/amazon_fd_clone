@@ -1,0 +1,24 @@
+.loader{
+    position:fixed;
+    margin-top: 100px;
+    margin-left:100px ;
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    border:20px solid green;
+    border-top: 20px solid rgb(182, 43, 43);
+    animation: spinanimation 3s;
+
+}
+.loader:hover{
+    animation: spinanimation;
+}
+@keyframes spinanimation {
+    from{
+        transfrom: rotate(0 deg);
+    }
+    to{
+        transfrom: rotate(360 deg);
+    }
+    
+}

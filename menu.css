@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+.menu{
+    background-color: antiquewhite;
+    width: 150px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    position:fixed;
+    margin-left: 30px;
+    margin-top: 100px;
+    font-size: 20px;
+    padding: 12px; 
+
+}
+li{
+    text-decoration: none;
+  list-style-type: none;
+  margin-top: 0;    
+  text-align: left;
+  /*border: 1px solid #555;*/
+ line-height: 28px;
+}
+ul{
+    overflow: auto;
+}
+a{
+    text-decoration: none;
+    color:red;
+}
+li a:hover{
+    color:rosybrown;
+    background-color:rgb(3, 95, 175);
+    font-size: 20px;
+}
